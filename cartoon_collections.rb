@@ -19,7 +19,7 @@ end
 
 def find_the_cheese (list)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheddar = cheese_type.shift
+  cheddar = cheese_types.shift
   list.any? do |x|
     cheese_types.include?(x)
   end 
