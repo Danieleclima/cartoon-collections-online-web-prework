@@ -24,4 +24,6 @@ def find_the_cheese (list)
     cheese_types.include?(x)
   binding.pry
   end
+  if cheese_types.include?(list) == false
+    return nil
 end
